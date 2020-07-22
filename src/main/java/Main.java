@@ -12,7 +12,6 @@ public class Main {
             arrCats[i] = new Cat("Котяра" + i, 10 + rand.nextInt(10), false);
             System.out.println("Имя кота: " + arrCats[i].getName() + ", аппетит кота: " + arrCats[i].getAppetite() + ", кот наелся: " + arrCats[i].getFillCat());
         }
-
         Cat cat = new Cat("Васька", 10, false);
         Plate plate = new Plate(foodCount);
         plate.info();
