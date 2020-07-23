@@ -23,21 +23,26 @@ public class Cat {
     }
 
     public String getName() {
+
         return name;
     }
 
     public void setName(String name) {
+
         this.name = name;
     }
 
     public int getAppetite() {
+
         return appetite;
     }
 
     public boolean getFillCat() {
+
         return fillCat;
     }
     public void setAppetite(int appetite) {
+
         this.appetite = appetite;
     }
 }
