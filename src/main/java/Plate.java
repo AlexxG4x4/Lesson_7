@@ -19,9 +19,11 @@ public class Plate {
         System.out.println("Добавить в тарелку " + incFood);
     }
     public int getFood() {
+
         return food;
     }
     public void setFood(int food) {
+
         this.food = food;
     }
 }
